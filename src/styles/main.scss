@@ -1,5 +1,69 @@
-$bgcolor: red;
+@use 'variaveis';
 
-body {
-    background-color: $bgcolor;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: variaveis.$background;
+    color: variaveis.$colorFont;
+}
+
+header {
+    width: 100%;
+    max-width: 100%;
+    nav {
+        padding-top: 15px;
+        width: 1024px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+
+        .header-logo {
+            max-width: 100%;
+            width: 100px;
+        }
+
+        .header-lista {
+            display: flex;
+            gap: 30px;
+            font-family: variaveis.$fonteButton;
+            list-style: none;
+
+            .header-line1{
+                border: 1px solid red;
+                background-color: red;
+                border-radius: 5px;
+                height: 40px;
+                width: 120px;
+                text-align: center;
+                padding-top: 10px;
+                font-weight: bold;
+                transition: 1s;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: rgb(245, 39, 39);
+                    transform: scale(1.1);
+                    transition: 1s;
+                }
+            }
+
+            .header-line2{
+                border: 1px solid red;
+                border-radius: 5px;
+                height: 40px;
+                width: 120px;
+                text-align: center;
+                padding-top: 10px;
+                font-weight: bold;
+                cursor: pointer;
+                transition: 1s;
+
+                &:hover {
+                    transform: scale(1.1);
+                    transition: 1s;
+                }
+            }
+        }
+    }
 }
