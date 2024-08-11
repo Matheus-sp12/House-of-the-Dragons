@@ -8,8 +8,11 @@
     <link rel="stylesheet" href="./dist/css/main.css">
     <link rel="shortcut icon" href="./src/images/logo-pagina.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Zain:wght@200;300;400;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Zain:wght@200;300;400;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
 <body>
@@ -17,7 +20,8 @@
     <header>
         <nav>
             <div>
-                <img src="./src/images/logo-pagina.png" class="header-logo" alt="logo com o simbolo da casa dos dragãos">
+                <img src="./src/images/logo-pagina.png" class="header-logo"
+                    alt="logo com o simbolo da casa dos dragãos">
             </div>
             <ul class="header-lista">
                 <li class="header-line1">Registrar</li>
@@ -26,6 +30,391 @@
         </nav>
     </header>
 
+
+    <main>
+        <section class="banner">
+            <img src="./src/images/banner1.jpg" alt="Capa da serie com as rainhas">
+        </section>
+
+        <section class="trailer">
+
+            <iframe width="591" height="360" src="https://www.youtube.com/embed/YN2H_sKcmGw"
+                title="House of the Dragon Season 2 | Official Trailer | Max" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            <div class="trailer_div">
+                <p>Baseada no livro Fogo & Sangue de George R. R. Martin, House of the Dragon é um spin-off de Game of
+                    Thrones que narra a história de conquista de terras em Westeros, mais conhecida como a Dança dos
+                    Dragões. Situada mais de 200 anos antes dos eventos da série original, em A Casa do Dragão
+                    acompanhamos a guerra civil que acontece enquanto os meio-irmãos Aegon II (Tom Glynn-Carney) e
+                    Rhaenyra (Emma D'Arcy) almejam o trono após a morte do pai Viserys I (Paddy Considine). Rhaenyra é a
+                    filha mais velha, contudo, Aegon é o filho homem de um segundo casamento, o que acaba gerando uma
+                    crescente tensão entre dois clãs Targaryen sobre quem tem o verdadeiro direito ao trono. Como
+                    descrito em Game of Thrones, no tempo em que a família Targaryen dominava os 7 reinos, a casa era
+                    conhecida por seus imponentes dragões, que assim como a família, acabaram praticamente extintos após
+                    o conflito interno.</p>
+            </div>
+
+        </section>
+
+        <section class="serie">
+
+            <nav class="serie_tabs">
+
+                <button data-tab-button="temp1" class="serie_button serie_button--is-active">
+                    Temporada 1
+                </button>
+
+                <button data-tab-button="temp2" class="serie_button">
+                    Temporada 2
+                </button>
+            </nav>
+
+            <ul data-tab-id="temp1" class="serie_lista serie_lista--is-active">
+
+                <li class="serie_item">
+                    <img src="./src/images/serie/temp1/ep1-t1.webp" alt="">
+                    <h5>Ep.1: Os Herdeiros do Dragão</h5>
+                    <div class="descricao">
+                        <p class="border">18</p>
+                        <p>1h6 min</p>
+                        <p>2022</p>
+                    </div>
+                    <p>Viserys organiza um torneio para comemorar o nascimento de seu segundo filho. Rhaenyra recebe seu
+                        tio Daemon na...</p>
+                </li>
+                <li class="serie_item">
+                    <img src="./src/images/serie/temp1/ep2.jpg" alt="">
+                    <h5>Ep.2: O Príncipe Canalha</h5>
+                    <div class="descricao">
+                        <p class="border">18</p>
+                        <p>54 min</p>
+                        <p>2022</p>
+                    </div>
+                    <p>Rhaenyra se excede no Pequeno Conselho. Viserys é aconselhado a garantir a sucessão através do
+                        casamento. Daemon anuncia suas intenções....</p>
+                </li>
+                <li class="serie_item">
+                    <img src="./src/images/serie/temp1/ep3.jpg" alt="">
+                    <h5>Ep.3: Os Herdeiros do Dragão</h5>
+                    <div class="descricao">
+                        <p class="border">18</p>
+                        <p>1h4 min</p>
+                        <p>2022</p>
+                    </div>
+                    <p>Daemon e a Serpente Marinha lutam contra o Engorda Caranguejos. O reino celebra o dia do nome de
+                        Aegon. Rhaenyr...</p>
+                </li>
+
+                <li class="serie_item">
+                    <img src="./src/images/serie/temp1/ep4.webp" alt="">
+                    <h5>Ep.4: O Rei do Mar Estreito</h5>
+                    <div class="descricao">
+                        <p class="border">18</p>
+                        <p>1h3 min</p>
+                        <p>2022</p>
+                    </div>
+                    <p>Despois de Rhaenyra interromper sua viagem por Westeros, Daemon lhe apresenta a Rua da Seda após
+                        o anoitecer.</p>
+                </li>
+                <li class="serie_item">
+                    <img src="./src/images/serie/temp1/ep5.jpg" alt="">
+                    <h5>Ep.5: Iluminamos o Caminho</h5>
+                    <div class="descricao">
+                        <p class="border">18</p>
+                        <p>1h min</p>
+                        <p>2022</p>
+                    </div>
+                    <p>Daemon visita sua esposa no Vale. Viserys e Rhaenyra negociam acordos com os Velaryon. Alicent
+                        busca a verdade sobre ...</p>
+                </li>
+
+                <li class="serie_item">
+                    <img src="./src/images/serie/temp1/ep6.webp" alt="">
+                    <h5>Ep.6: A Princesa e a Rainha</h5>
+                    <div class="descricao">
+                        <p class="border">18</p>
+                        <p>1h8 min</p>
+                        <p>2022</p>
+                    </div>
+                    <p>Dez anos depois, Rhaenyra lida com as constantes especulações de Alicent sobre seus filhos.
+                        Daemon e Laena avaliam um...</p>
+                </li>
+
+                <li class="serie_item">
+                    <img src="./src/images/serie/temp1/ep7.jpg" alt="">
+                    <h5>Ep.7: Driftmark</h5>
+                    <div class="descricao">
+                        <p class="border">18</p>
+                        <p>59 min</p>
+                        <p>2022</p>
+                    </div>
+                    <p>Enquanto as famílias se reúnem em Driftmark para um funeral, Viserys pede que as lutas internas
+                        cessem e Alicent...</p>
+                </li>
+
+                <li class="serie_item">
+                    <img src="./src/images/serie/temp1/ep8.png" alt="">
+                    <h5>Ep.8: O Rei das Marés</h5>
+                    <div class="descricao">
+                        <p class="border">18</p>
+                        <p>1h8 min</p>
+                        <p>2022</p>
+                    </div>
+                    <p>Seis anos depois. Com uma repentina crise de sucessão em Driftmark, Rhaenyra tenta chegar a um
+                        acordo com Rhaenys...</p>
+                </li>
+
+                <li class="serie_item">
+                    <img src="./src/images/serie/temp1/ep9.jpg" alt="">
+                    <h5>Ep.9: O Conselho Verde</h5>
+                    <div class="descricao">
+                        <p class="border">18</p>
+                        <p>58 min</p>
+                        <p>2022</p>
+                    </div>
+                    <p>Enquanto Alicent pede ajuda a Cole e Aemond para localizar Aegon, Otto reúne as grandes casas de
+                        Westeros para que...</p>
+                </li>
+
+                <li class="serie_item">
+                    <img src="./src/images/serie/temp1/ep10.jpg" alt="">
+                    <h5>Ep.10: A Rainha Preta</h5>
+                    <div class="descricao">
+                        <p class="border">18</p>
+                        <p>1h8 min</p>
+                        <p>2022</p>
+                    </div>
+                    <p>Enquanto lamenta uma perda trágica, Rhaenyra tenta manter o reino unido, e Daemon se prepara para
+                        a guerra.</p>
+                </li>
+            </ul>
+
+            <ul data-tab-id="temp2" class="serie_lista">
+
+                <li class="serie_item">
+                    <img src="./src/images/serie/temp2/ep1.webp" alt="">
+                    <h5>Ep.1: Um Filho por um Filho</h5>
+                    <div class="descricao">
+                        <p class="border">18</p>
+                        <p>59 min</p>
+                        <p>2024</p>
+                    </div>
+                    <p>Enquanto Alicent fica cada vez mais preocupada com o Conselho de Aegon, Rhaenyra toma uma decisão fatídica.</p>
+                </li>
+
+                <li class="serie_item">
+                    <img src="./src/images/serie/temp2/ep2.jpg" alt="">
+                    <h5>Ep.2: Rhaenyra, A Cruel</h5>
+                    <div class="descricao">
+                        <p class="border">18</p>
+                        <p>1h9 min</p>
+                        <p>2024</p>
+                    </div>
+                    <p>Rhaenyra questiona a lealdade de Daemon enquanto Otto planeja colocar o público contra ela.</p>
+                </li>
+
+
+                <li class="serie_item">
+                    <img src="./src/images/serie/temp2/ep3.webp" alt="">
+                    <h5>Ep.3: O Moinho Ardente</h5>
+                    <div class="descricao">
+                        <p class="border">18</p>
+                        <p>1h7 min</p>
+                        <p>2024</p>
+                    </div>
+                    <p>Enquanto velhos rancores ressurgem, Rhaenys sugere moderação. Daemon chega a Harrenhal para formar um exército para os Pretos...</p>
+                </li>
+
+
+                <li class="serie_item">
+                    <img src="./src/images/serie/temp2/ep4.jpg" alt="">
+                    <h5>Ep.4: O Dragão Vermelho e O Dourado</h5>
+                    <div class="descricao">
+                        <p class="border">18</p>
+                        <p>56 min</p>
+                        <p>2024</p>
+                    </div>
+                    <p>Na ausência de Rhaenyra e Daemon, Rhaenys tenta estabilizar o Conselho Preto enquanto Cole organiza uma...</p>
+                </li>
+
+
+                <li class="serie_item">
+                    <img src="./src/images/serie/temp2/ep5.jpg" alt="">
+                    <h5>Ep.5: O Regente</h5>
+                    <div class="descricao">
+                        <p class="border">18</p>
+                        <p>1h3 min</p>
+                        <p>2024</p>
+                    </div>
+                    <p>Enquanto os Verdes avaliam como preencher o vazio no Conselho de Aegon, Daemon tenta fazer com que os Bracken...</p>
+                </li>
+
+
+                <li class="serie_item">
+                    <img src="./src/images/serie/temp2/ep6.avif" alt="">
+                    <h5>Ep.6: Os Plebeus</h5>
+                    <div class="descricao">
+                        <p class="border">18</p>
+                        <p>1h8 min</p>
+                        <p>2024</p>
+                    </div>
+                    <p>Com poucas opções a seu favor, Rhaenyra embarca em uma missão arriscada. Aemond toma medidas para renovar o...</p>
+                </li>
+
+
+                <li class="serie_item">
+                    <img src="./src/images/serie/temp2/ep7.jpg" alt="">
+                    <h5>Ep.7: A Semeação Vermelha</h5>
+                    <div class="descricao">
+                        <p class="border">18</p>
+                        <p>1h4 min</p>
+                        <p>2024</p>
+                    </div>
+                    <p>Enquanto Rhaenyra procura obter vantagem por meios incomuns, Daemon pressiona um jovem lorde a convocar...</p>
+                </li>
+
+
+                <li class="serie_item">
+                    <img src="./src/images/serie/temp2/ep8.avif" alt="">
+                    <h5>EEp.8: A Rainha que Sempre Foi</h5>
+                    <div class="descricao">
+                        <p class="border">18</p>
+                        <p>1h10 min</p>
+                        <p>2024</p>
+                    </div>
+                    <p>Conforme Aemond fica mais volátil, Larys planeja uma fuga. No entando, Rhaenyra tenta aproveitar sua vantagem.</p>
+                </li>
+
+            </ul>
+        </section>
+
+        <section class="planos">
+
+            <h3>Escolha o melhor plano para você</h3>
+
+            <div>
+                <ul class="planos_lista">
+                    <li class="planos_linha">
+                        <h5>Básico com Anúncios</h5>
+
+                        <div class="planos-div">
+                            <p>
+                                <i class="bi bi-check-lg"></i>
+                                <strong>2 disposito</strong> ao mesmo tempo
+                            </p><br>
+
+                            <p>
+                                <i class="bi bi-tv"></i>
+                                Resolução <strong>Full HD</strong>
+                            </p><br>
+
+                            <p class="none">
+                                <i class="bi bi-tv"></i>
+                                <strong>30 downloads</strong> para curtir off-line
+                            </p><br>
+
+                            <p class="none">
+                                <i class="bi bi-headphones"></i>
+                                Aúdio <strong>Dolby Atmos</strong>
+                            </p>
+
+                            <div class="div-preco">
+                                <span class="preco">12x R$18,90 <span class="barra">/mês</span>
+                                    <p>Preço total anual R$226,80</p>
+                                    <button>Escolha seu plano</button>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="planos_linha">
+                        <h5>Standard</h5>
+
+                        <div class="planos-div">
+                            <p>
+                                <i class="bi bi-check-lg"></i>
+                                <strong>2 disposito</strong> ao mesmo tempo
+                            </p><br>
+
+                            <p>
+                                <i class="bi bi-tv"></i>
+                                Resolução <strong>Full HD</strong>
+                            </p><br>
+
+                            <p>
+                                <i class="bi bi-tv"></i>
+                                <strong>30 downloads</strong> para curtir off-line
+                            </p><br>
+
+                            <p class="none">
+                                <i class="bi bi-headphones"></i>
+                                Aúdio <strong>Dolby Atmos</strong>
+                            </p>
+
+                            <div class="div-preco">
+                                <span class="preco">12x R$29,90 <span class="barra">/mês</span>
+                                    <p>Preço total anual R$358,80</p>
+                                    <button>Escolha seu plano</button>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="planos_linha">
+                        <h5>Platinum</h5>
+
+                        <div class="planos-div">
+                            <p>
+                                <i class="bi bi-check-lg"></i>
+                                <strong>4 disposito</strong> ao mesmo tempo
+                            </p><br>
+
+                            <p>
+                                <i class="bi bi-tv"></i>
+                                Resolução <strong>Full HD e 4K Ultra HD</strong>
+                            </p><br>
+
+                            <p>
+                                <i class="bi bi-tv"></i>
+                                <strong>30 downloads</strong> para curtir off-line
+                            </p><br>
+
+                            <p>
+                                <i class="bi bi-headphones"></i>
+                                Aúdio <strong>Dolby Atmos</strong>
+                            </p>
+
+                            <div class="div-preco">
+                                <span class="preco">12x R$18,90 <span class="barra">/mês</span>
+                                    <p>Preço total anual R$226,80</p>
+                                    <button>Escolha seu plano</button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="plano_text">
+                    <p class="text">
+                        *Full HD, 4K Ultra HD e Dolby Atmos não estão disponíveis em todo o conteúdo de cada plano. O
+                        conteúdo ao vivo nos planos Standard e Platinum pode conter anúncios .Downloads podem ter
+                        restrições em algumas categorias de conteúdo. Saiba mais em: help.max.com/plans. Economia
+                        calculada com base no preço da assinatura anual vs. a assinatura mensal regular ao longo de 12
+                        meses.
+                    </p>
+                </div>
+            </div>
+
+
+        </section>
+
+
+
+        </section>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+        <script src="./src/main.js"></script>
 </body>
 
 </html>
